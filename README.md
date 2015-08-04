@@ -1,4 +1,4 @@
-# discourse-tentacle
+# purple-tentacle
 
 A sample plugin to show how to use handlebars templates on a custom route
 to configure a plugin in Discourse.
