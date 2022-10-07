@@ -1,0 +1,10 @@
+{
+  "name": "purple-tentacle",
+  "version": "0.1",
+  "repository": "https://github.com/eviltrout/purple-tentacle",
+  "author": "EvilTrout",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-discourse": "^3.0.0"
+  }
+}

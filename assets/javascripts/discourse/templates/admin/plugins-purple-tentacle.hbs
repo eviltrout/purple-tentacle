@@ -1,9 +1,14 @@
 {{#if tentacleVisible}}
-  <div class='tentacle'>
-    <img src="http://eviltrout.com/images/tentacle.gif">
+  <div class="tentacle">
+    <img src="http://eviltrout.com/images/tentacle.gif" />
   </div>
 {{/if}}
 
-<div class='buttons'>
-  {{d-button label="purple_tentacle.show" action="showTentacle" icon="eye" id='show-tentacle'}}
+<div class="buttons">
+  <DButton
+    @label="purple_tentacle.show"
+    @action={{action "showTentacle"}}
+    @icon="eye"
+    @id="show-tentacle"
+  />
 </div>
