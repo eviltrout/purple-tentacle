@@ -4,6 +4,7 @@
 # authors: Robin Ward
 # url: https://github.com/discourse/purple-tentacle
 
+register_svg_icon "eye"
 add_admin_route 'purple_tentacle.title', 'purple-tentacle'
 
 Discourse::Application.routes.append do
