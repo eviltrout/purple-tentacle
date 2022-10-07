@@ -1,0 +1,4 @@
+plugins:
+  purple_tentacle_enabled:
+    default: true
+    client: true

@@ -4,6 +4,8 @@
 # authors: Robin Ward
 # url: https://github.com/discourse/purple-tentacle
 
+enabled_site_setting :purple_tentacle_enabled
+
 register_svg_icon "eye"
 add_admin_route 'purple_tentacle.title', 'purple-tentacle'
 
